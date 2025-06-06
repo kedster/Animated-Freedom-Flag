@@ -3,247 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juneteenth Freedom Journey</title>
+    <title>AI-Generated Juneteenth Flags Comparison</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="app-container">
+    <div class="container">
         <header class="header">
-            <h1 class="main-title">Juneteenth Freedom Journey</h1>
-            <p class="subtitle">Celebrating Freedom, Justice, and African American Heritage</p>
-            <div class="federal-status">✨ Federal Holiday Since June 17, 2021 ✨</div>
+            <h1>Different AI Models Generating Juneteenth Flags</h1>
+            <p>Exploring AI creativity in commemorating freedom and heritage</p>
         </header>
 
-        <nav class="navigation">
-            <button class="nav-btn active" data-section="history">Historical Timeline</button>
-            <button class="nav-btn" data-section="flag">Flag & Symbols</button>
-            <button class="nav-btn" data-section="impact">Modern Impact</button>
-            <button class="nav-btn" data-section="celebrations">Celebrations</button>
-            <button class="nav-btn" data-section="ai-insights">AI Insights</button>
-        </nav>
+        <section class="description">
+            <h2>About Juneteenth</h2>
+            <p>
+                Juneteenth, also known as Freedom Day or Emancipation Day, commemorates June 19, 1865, when enslaved African Americans in Galveston, Texas, finally learned of their freedom—two and a half years after the Emancipation Proclamation. This historic day represents the end of slavery in the United States and has become a symbol of African American freedom, resilience, and cultural heritage. Today, Juneteenth is celebrated nationwide as a federal holiday, honoring the journey toward equality and justice.
+            </p>
+        </section>
 
-        <section id="history" class="content-section active">
-            <h2 style="color: #c0392b; font-size: 2.5rem; margin-bottom: 30px; text-align: center;">The Path to Freedom</h2>
-            
-            <div class="timeline">
-                <div class="timeline-item" data-year="1863">
-                    <div class="timeline-date">January 1, 1863</div>
-                    <h3>Emancipation Proclamation</h3>
-                    <p>President Abraham Lincoln issued the Emancipation Proclamation, declaring enslaved people in rebellious states to be free. However, this news didn't reach all enslaved communities immediately due to limited communication and ongoing conflict.</p>
+        <section class="baseline">
+            <h2>Baseline Methodology</h2>
+            <div class="baseline-content">
+                <div class="prompt-section">
+                    <h3>📝 Standard Prompt Used</h3>
+                    <div class="prompt-box">
+                        <p><strong>Prompt:</strong> "Create an HTML and CSS representation of a Juneteenth flag. Use appropriate colors, symbols, and design elements that honor the historical significance of Juneteenth - the commemoration of the end of slavery in the United States on June 19, 1865. The flag should be respectful, meaningful, and visually represent themes of freedom, heritage, and celebration."</p>
+                    </div>
                 </div>
                 
-                <div class="timeline-item" data-year="1865">
-                    <div class="timeline-date">June 19, 1865</div>
-                    <h3>Freedom Comes to Texas</h3>
-                    <p>Union Major General Gordon Granger arrived in Galveston, Texas, and announced General Order No. 3, which informed enslaved people in Texas that they were free. This marked the effective end of slavery in the Confederacy and became the foundation of Juneteenth.</p>
+                <div class="fairness-section">
+                    <h3>⚖️ Ensuring Fair Comparison</h3>
+                    <div class="fairness-grid">
+                        <div class="fairness-item">
+                            <h4>Identical Prompts</h4>
+                            <p>Every AI model received the exact same prompt to ensure consistent testing conditions</p>
+                        </div>
+                        <div class="fairness-item">
+                            <h4>No Leading Context</h4>
+                            <p>No prior conversation or examples were provided to avoid bias toward specific design approaches</p>
+                        </div>
+                        <div class="fairness-item">
+                            <h4>Single Attempt</h4>
+                            <p>Each result represents the first response from each AI model, without cherry-picking or multiple tries</p>
+                        </div>
+                        <div class="fairness-item">
+                            <h4>Default Settings</h4>
+                            <p>All models used their standard creativity/temperature settings with no special parameters</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="timeline-item" data-year="1866">
-                    <div class="timeline-date">June 19, 1866</div>
-                    <h3>First Juneteenth Celebration</h3>
-                    <p>The first organized Juneteenth celebration took place in Texas, featuring religious ceremonies, speeches, and community gatherings. This began the tradition of annual commemorations that would spread across the nation.</p>
+                <div class="evaluation-note">
+                    <p><em>This comparison aims to showcase the creative diversity in how different AI systems interpret historical significance through visual design, rather than ranking or judging the quality of responses.</em></p>
                 </div>
-                
-                <div class="timeline-item" data-year="1980">
-                    <div class="timeline-date">January 1, 1980</div>
-                    <h3>Texas State Holiday</h3>
-                    <p>Texas became the first state to officially recognize Juneteenth as a state holiday, paving the way for national recognition and celebrating the significance of this historic day.</p>
-                </div>
-                
-                <div class="timeline-item" data-year="2021">
-                    <div class="timeline-date">June 17, 2021</div>
-                    <h3>Federal Holiday Status</h3>
-                    <p>President Joe Biden signed the Juneteenth National Independence Day Act into law, making Juneteenth the 12th federal holiday. This historic moment recognized the importance of commemorating the end of slavery on a national level.</p>
-                </div>
-            </div>
-
-            <div class="fun-fact">
-                <h3>Did You Know?</h3>
-                <p>The word "Juneteenth" is a combination of "June" and "nineteenth," reflecting the grassroots nature of how this celebration evolved organically within African American communities across generations.</p>
             </div>
         </section>
 
-        <section id="flag" class="content-section">
-            <h2 style="color: #c0392b; font-size: 2.5rem; margin-bottom: 30px; text-align: center;">The Juneteenth Flag</h2>
-            
-            <div class="flag-container">
-                <div class="flag" onclick="animateFlag()">
-                    <div class="flag-stripe flag-red"></div>
-                    <div class="flag-stripe flag-white">
-                        <div class="flag-star"></div>
-                        <div class="flag-burst"></div>
-                    </div>
-                    <div class="flag-stripe flag-blue"></div>
-                </div>
-                <p style="margin-top: 15px; font-style: italic;">Click the flag to see it come alive!</p>
-            </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search through AI models or flag descriptions...">
+        </div>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin-top: 40px;">
-                <div style="background: #fff5f5; padding: 25px; border-radius: 15px; border-left: 5px solid #dc143c;">
-                    <h3 style="color: #dc143c;">Red, White & Blue</h3>
-                    <p>The flag uses the same colors as the American flag to symbolize that formerly enslaved people and their descendants are Americans, and their history is inseparable from American history.</p>
-                </div>
-                
-                <div style="background: #f8f9ff; padding: 25px; border-radius: 15px; border-left: 5px solid #002868;">
-                    <h3 style="color: #002868;">The Star</h3>
-                    <p>Represents Texas, where Juneteenth originated, and symbolizes the freedom of African Americans in all 50 states. It shines as a beacon of hope and liberation.</p>
-                </div>
-                
-                <div style="background: #fff9f0; padding: 25px; border-radius: 15px; border-left: 5px solid #ffc107;">
-                    <h3 style="color: #d68910;">The Burst</h3>
-                    <p>The bursting outline around the star represents a new beginning and reflects the moment of liberation and the explosion of new opportunities for freedom.</p>
-                </div>
-                
-                <div style="background: #f0f8f0; padding: 25px; border-radius: 15px; border-left: 5px solid #27ae60;">
-                    <h3 style="color: #27ae60;">The Arc</h3>
-                    <p>The curved line represents a new horizon—the promises and hope that lay ahead for Black Americans after emancipation, symbolizing progress and future possibilities.</p>
-                </div>
-            </div>
+        <div class="controls">
+            <button class="btn btn-primary" onclick="addFlagContainer()">Add New AI Model Comparison</button>
+            <button class="btn btn-secondary" onclick="clearAll()">Clear All</button>
+            <button class="btn btn-secondary" onclick="exportComparison()">Export Comparison</button>
+        </div>
 
-            <div class="fun-fact">
-                <h3>Flag History</h3>
-                <p>The original Juneteenth flag was created in 1997 by activist Ben Haith. The current refined version was designed in 2000 by illustrator Lisa Jeanne Graf, with the date "June 19, 1865" added in 2007.</p>
-            </div>
-        </section>
+        <div class="grid-container" id="flagGrid">
+            <!-- Initial containers will be added here -->
+        </div>
 
-        <section id="impact" class="content-section">
-            <h2 style="color: #c0392b; font-size: 2.5rem; margin-bottom: 30px; text-align: center;">Modern Impact & Recognition</h2>
-            
-            <div class="interactive-map">
-                <h3 style="margin-bottom: 20px;">Juneteenth Recognition Across America</h3>
-                <p>As of 2024, all 50 states and the District of Columbia recognize Juneteenth in some form</p>
-                
-                <div class="progress-bar">
-                    <div class="progress-fill" style="width: 100%"></div>
+        <footer class="footer">
+            <div class="footer-content">
+                <h3>Celebrating Juneteenth Through AI Creativity</h3>
+                <p>This comparison tool showcases how different AI models interpret and visualize the significance of Juneteenth through flag design. Each AI brings its unique perspective to honoring this important day in American history.</p>
+                <div class="footer-links">
+                    <span>Learn more about Juneteenth: </span>
+                    <a href="https://www.juneteenth.com" target="_blank">Juneteenth.com</a> | 
+                    <a href="https://nmaahc.si.edu/explore/stories/historical-legacy-juneteenth" target="_blank">National Museum of African American History</a>
                 </div>
-                <p style="font-weight: bold; color: #27ae60;">100% State Recognition Achieved!</p>
-                
-                <div class="state-info">
-                    <div class="state-card">
-                        <h4>Texas (1980)</h4>
-                        <p>First state to recognize Juneteenth as an official holiday, leading the way for national adoption.</p>
-                    </div>
-                    <div class="state-card">
-                        <h4>47 States by 2020</h4>
-                        <p>Before federal recognition, 47 states had already adopted some form of Juneteenth observance.</p>
-                    </div>
-                    <div class="state-card">
-                        <h4>Federal Holiday (2021)</h4>
-                        <p>Signed into law by President Biden, making it the newest federal holiday since MLK Day in 1983.</p>
-                    </div>
-                    <div class="state-card">
-                        <h4>Current Status (2025)</h4>
-                        <p>Remains a federal holiday under all administrations, representing enduring American values of freedom and justice.</p>
-                    </div>
-                </div>
+                <p class="footer-note">© 2025 AI Juneteenth Flag Comparison Tool - Created to honor freedom and heritage</p>
             </div>
-
-            <div style="background: #e8f5e8; padding: 25px; border-radius: 15px; margin: 25px 0;">
-                <h3 style="color: #27ae60;">Legislative Journey</h3>
-                <p>The path to federal recognition involved bipartisan congressional support, grassroots advocacy, and decades of community organizing. The 2020 social justice movements provided additional momentum for national recognition.</p>
-            </div>
-
-            <div class="fun-fact">
-                <h3>Economic Impact</h3>
-                <p>Juneteenth celebrations contribute millions to local economies through festivals, parades, educational events, and cultural programming, while also supporting Black-owned businesses nationwide.</p>
-            </div>
-        </section>
-
-        <section id="celebrations" class="content-section">
-            <h2 style="color: #c0392b; font-size: 2.5rem; margin-bottom: 30px; text-align: center;">How America Celebrates</h2>
-            
-            <div class="celebration-tracker">
-                <h3 style="color: #856404;">Traditional Celebration Elements</h3>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
-                    <div style="text-align: center; padding: 20px;">
-                        <div style="font-size: 3rem; margin-bottom: 10px;">🎵</div>
-                        <h4>Music & Arts</h4>
-                        <p>Gospel, jazz, blues, and contemporary performances celebrating African American musical heritage</p>
-                    </div>
-                    <div style="text-align: center; padding: 20px;">
-                        <div style="font-size: 3rem; margin-bottom: 10px;">🍖</div>
-                        <h4>Traditional Foods</h4>
-                        <p>Barbecue, red drinks (symbolizing perseverance), and soul food connecting communities to their roots</p>
-                    </div>
-                    <div style="text-align: center; padding: 20px;">
-                        <div style="font-size: 3rem; margin-bottom: 10px;">📚</div>
-                        <h4>Education</h4>
-                        <p>Historical presentations, storytelling, and learning opportunities about African American history</p>
-                    </div>
-                    <div style="text-align: center; padding: 20px;">
-                        <div style="font-size: 3rem; margin-bottom: 10px;">🎪</div>
-                        <h4>Community Events</h4>
-                        <p>Parades, festivals, family reunions, and public gatherings fostering unity and celebration</p>
-                    </div>
-                </div>
-            </div>
-
-            <div style="background: linear-gradient(135deg, #ff9a56 0%, #f12711 100%); color: white; padding: 30px; border-radius: 15px; margin: 25px 0;">
-                <h3>Modern Celebrations Include:</h3>
-                <ul style="list-style: none; padding: 0; margin-top: 15px;">
-                    <li style="margin: 10px 0; padding-left: 25px; position: relative;">
-                        <span style="position: absolute; left: 0;">🎭</span> Cultural festivals and art exhibitions
-                    </li>
-                    <li style="margin: 10px 0; padding-left: 25px; position: relative;">
-                        <span style="position: absolute; left: 0;">🏛️</span> Museum special exhibitions and historical tours
-                    </li>
-                    <li style="margin: 10px 0; padding-left: 25px; position: relative;">
-                        <span style="position: absolute; left: 0;">🎓</span> Educational workshops and community discussions
-                    </li>
-                    <li style="margin: 10px 0; padding-left: 25px; position: relative;">
-                        <span style="position: absolute; left: 0;">💼</span> Corporate recognition and employee education programs
-                    </li>
-                    <li style="margin: 10px 0; padding-left: 25px; position: relative;">
-                        <span style="position: absolute; left: 0;">🌐</span> Virtual celebrations and online educational content
-                    </li>
-                </ul>
-            </div>
-
-            <div class="fun-fact">
-                <h3>Red Food & Drinks Tradition</h3>
-                <p>Red foods and beverages (like red velvet cake, barbecue, and red punch) are traditional at Juneteenth celebrations, symbolizing the blood shed by enslaved ancestors and the resilience of the African American community.</p>
-            </div>
-        </section>
-
-        <section id="ai-insights" class="content-section">
-            <h2 style="color: #c0392b; font-size: 2.5rem; margin-bottom: 30px; text-align: center;">AI-Generated Insights</h2>
-            
-            <div class="ai-insights">
-                <h3>🤖 Discover Deeper Connections</h3>
-                <p>Click the buttons below to generate AI-powered insights about Juneteenth and its significance in American history.</p>
-                
-                <div class="insight-generator">
-                    <button class="insight-btn" onclick="generateInsight('historical')">Historical Connections</button>
-                    <button class="insight-btn" onclick="generateInsight('cultural')">Cultural Impact</button>
-                    <button class="insight-btn" onclick="generateInsight('modern')">Modern Relevance</button>
-                    <button class="insight-btn" onclick="generateInsight('global')">Global Perspective</button>
-                    <button class="insight-btn" onclick="generateInsight('future')">Future Implications</button>
-                </div>
-                
-                <div class="insight-display" id="insightDisplay">
-                    <p style="opacity: 0.7;">Click any button above to generate an AI insight...</p>
-                </div>
-            </div>
-
-            <div style="background: white; padding: 30px; border-radius: 15px; margin-top: 25px;">
-                <h3 style="color: #667eea;">Smart Learning Assistant</h3>
-                <div id="learningPath" style="margin-top: 20px;">
-                    <p>Based on your exploration, here are personalized learning recommendations:</p>
-                    <div id="recommendations" style="margin-top: 15px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
-                        <p style="color: #6c757d;">Start exploring the sections above to receive personalized recommendations!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="fun-fact">
-                <h3>AI & Historical Education</h3>
-                <p>Modern AI technology helps us discover new patterns in historical data, connect events across time periods, and make learning more interactive and personalized for each individual's journey of understanding.</p>
-            </div>
-        </section>
+        </footer>
     </div>
-    <footer class="footer">
-        <p>&copy; 2024 Juneteenth Freedom Journey. All rights reserved.</p>
-        <p>Created with ❤️ by the Snap-View Team</p>
-</body>
     <script src="script.js"></script>
+</body>
 </html>
