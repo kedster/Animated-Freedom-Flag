@@ -125,10 +125,18 @@ Example:
             
             // Add 6 static example containers
             const staticExamples = [
-                {
-                    name: "ChatGPT-4",
-                    code: `<div style="width: 100%; height: 200px; background: linear-gradient(to bottom, #dc143c 0%, #dc143c 33%, #ffd700 33%, #ffd700 66%, #228b22 66%, #228b22 100%); border: 2px solid #000; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-shadow: 1px 1px 2px rgba(0,0,0,0.7);">Sample Flag Design</div>`
-                },
+{
+    name: "ChatGPT-4",
+    code: `<div style="width: 100%; max-width: 400px; height: 240px; background: linear-gradient(to bottom, #0033a0 0% 50%, #d52b1e 50% 100%); border: 2px solid #000; border-radius: 8px; position: relative; overflow: hidden;">
+      <div style="position: absolute; top: 45%; left: -10%; width: 120%; height: 200%; background: white; border-radius: 50%; z-index: 1;"></div>
+      <div style="position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; transform: translate(-50%, -50%); z-index: 2;">
+        <div style="position: absolute; width: 100%; height: 100%; background: white; border-radius: 50%; clip-path: polygon(50% 0%, 58% 38%, 95% 38%, 63% 59%, 75% 100%, 50% 75%, 25% 100%, 37% 59%, 5% 38%, 42% 38%); opacity: 0.6;"></div>
+        <div style="position: absolute; width: 100%; height: 100%; background: white; border-radius: 50%; clip-path: polygon(50% 0%, 58% 38%, 95% 38%, 63% 59%, 75% 100%, 50% 75%, 25% 100%, 37% 59%, 5% 38%, 42% 38%);"></div>
+      </div>
+      <div style="position: absolute; top: 50%; left: 50%; width: 30px; height: 30px; background: white; transform: translate(-50%, -50%); clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); z-index: 3;"></div>
+    </div>`
+}
+po
                 {
                     name: "Claude Sonnet",
                     code: `<div style="width: 100%; height: 200px; background: radial-gradient(circle at center, #ffd700 30%, #dc143c 30%, #dc143c 70%, #228b22 70%); border: 3px solid #333; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Sample Flag Design</div>`
