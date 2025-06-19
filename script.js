@@ -100,38 +100,7 @@ function exportComparison() {
     }
 }
 
-// Search functionality with better compatibility
-function initializeSearch() {
-    const searchInput = document.getElementById('searchInput');
-    if (searchInput) {
-        // Use both input and keyup events for better compatibility
-        searchInput.addEventListener('input', handleSearch);
-        searchInput.addEventListener('keyup', handleSearch);
-    }
-}
 
-function handleSearch() {
-    const searchInput = document.getElementById('searchInput');
-    if (!searchInput) return;
-    
-    const searchTerm = searchInput.value.toLowerCase();
-    const containers = document.querySelectorAll('.flag-container');
-
-    for (var i = 0; i < containers.length; i++) {
-        const container = containers[i];
-        const modelNameEl = container.querySelector('.ai-model-label');
-        const codeInputEl = container.querySelector('.code-input');
-        
-        const modelName = modelNameEl ? (modelNameEl.textContent || modelNameEl.innerText).toLowerCase() : '';
-        const code = codeInputEl ? codeInputEl.value.toLowerCase() : '';
-
-        if (modelName.indexOf(searchTerm) !== -1 || code.indexOf(searchTerm) !== -1) {
-            container.style.display = 'block';
-        } else {
-            container.style.display = searchTerm === '' ? 'block' : 'none';
-        }
-    }
-}
 
 // Static example containers
 function createStaticContainer(modelName, flagCode) {
