@@ -172,7 +172,36 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             name: "GPT-4 Turbo",
-            code: `<div style="width: 100%; height: 200px; background: conic-gradient(from 0deg, #dc143c 0deg 120deg, #ffd700 120deg 240deg, #228b22 240deg 360deg); border: 2px solid #000; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Sample Flag Design</div>`
+            code: `<div style="width: 100%; max-width: 400px; height: 240px; position: relative; border: 1px solid #000;">
+  <!-- Red Stripe -->
+  <div style="background: #e4002b; height: 33.33%; width: 100%;"></div>
+  <!-- White Stripe -->
+  <div style="background: #ffffff; height: 33.33%; width: 100%;"></div>
+  <!-- Blue Stripe -->
+  <div style="background: #002868; height: 33.34%; width: 100%;"></div>
+
+  <!-- Arc (New Horizon) -->
+  <svg viewBox="0 0 500 300" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    <path d="M0,180 Q250,60 500,180" fill="none" stroke="white" stroke-width="6" />
+  </svg>
+
+  <!-- Starburst (New Day of Freedom) -->
+  <svg viewBox="0 0 100 100" style="position: absolute; top: 50%; left: 50%; width: 60px; height: 60px; transform: translate(-50%, -50%);">
+    <g fill="white">
+      <circle cx="50" cy="50" r="6" />
+      <g stroke="white" stroke-width="2">
+        <line x1="50" y1="20" x2="50" y2="0" />
+        <line x1="50" y1="80" x2="50" y2="100" />
+        <line x1="20" y1="50" x2="0" y2="50" />
+        <line x1="80" y1="50" x2="100" y2="50" />
+        <line x1="30" y1="30" x2="15" y2="15" />
+        <line x1="70" y1="30" x2="85" y2="15" />
+        <line x1="30" y1="70" x2="15" y2="85" />
+        <line x1="70" y1="70" x2="85" y2="85" />
+      </g>
+    </g>
+  </svg>
+</div>`
         },
         {
             name: "Llama 3",
