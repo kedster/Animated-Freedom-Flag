@@ -182,27 +182,7 @@
             font-size: 0.9em;
         }
 
-        .search-box {
-            margin-bottom: 30px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
 
-        .search-box input {
-            width: 100%;
-            padding: 15px;
-            font-size: 1.1em;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            transition: border-color 0.3s ease;
-        }
-
-        .search-box input:focus {
-            outline: none;
-            border-color: #dc3545;
-        }
 
         .controls {
             display: flex;
