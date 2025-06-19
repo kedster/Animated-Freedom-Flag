@@ -302,7 +302,7 @@
 
         /* Enforce standard flag dimensions */
         .flag-display .flag-container,
-        .flag-display > div:first-child {
+        .flag-display>div:first-child {
             width: 100% !important;
             max-width: 400px !important;
             height: 240px !important;
@@ -336,6 +336,13 @@
         .code-input:focus {
             outline: none;
             border-color: #007bff;
+        }
+
+        .center-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1em;
         }
 
         .apply-btn {
@@ -375,11 +382,11 @@
             .grid-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .header h1 {
                 font-size: 2em;
             }
-            
+
             .container {
                 padding: 20px;
             }
