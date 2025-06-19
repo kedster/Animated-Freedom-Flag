@@ -221,7 +221,7 @@ function initializePage() {
                     <img 
                         src="juneteenth-flag-full-small.png" 
                         alt="Juneteenth Flag" 
-                        style="width:100%; max-width:400px; height:240px; display:block; border:1px solid #000;" />
+                        style="width:100%; max-width:450px; height:240px; display:block; border:1px solid #000;" />
                     </a>`
         }
     ];
