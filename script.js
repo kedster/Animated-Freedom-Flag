@@ -138,7 +138,7 @@ Example:
 },
                 {
                     name: "Claude Sonnet",
-                    code: `<div style="width: 100%; height: 200px; background: radial-gradient(circle at center, #ffd700 30%, #dc143c 30%, #dc143c 70%, #228b22 70%); border: 3px solid #333; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">Sample Flag Design</div>`
+                    code: `<div style="width:100%;max-width:400px;height:240px;position:relative;border:2px solid #333;box-shadow:0 4px 8px rgba(0,0,0,0.2);overflow:hidden;background:linear-gradient(to bottom,#DC143C 0%,#DC143C 33.33%,#FFFFFF 33.33%,#FFFFFF 66.66%,#1E3A8A 66.66%,#1E3A8A 100%)"><svg style="position:absolute;left:20%;top:50%;transform:translateY(-50%);width:40px;height:40px;fill:#FFFFFF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><div style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:120px;height:120px;border:4px solid #FFFFFF;border-radius:50%;background:transparent"></div></div>`
                 },
                 {
                     name: "Gemini Pro",
